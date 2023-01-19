@@ -3,7 +3,6 @@ PSQL="psql -X --username=freecodecamp --dbname=number_guess --tuples-only --no-a
 
 RANDOM_NUMBER=$(( RANDOM % 1000 + 1 ));
 
-#prompt the user for a username
 echo -e "\nEnter your username:";
 read USERNAME_INPUT;
 
